@@ -1,0 +1,5 @@
+- name: openjdk
+  hosts: all
+  roles:
+    - role: geerlingguy.java
+      when: "ansible_os_family == 'RedHat'"
