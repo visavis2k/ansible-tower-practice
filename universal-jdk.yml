@@ -1,0 +1,5 @@
+- name: universal-jdk
+  hosts: all
+  become: yes
+  roles:
+    - role: ChristopherDavenport.universal-java
